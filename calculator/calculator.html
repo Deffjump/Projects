@@ -4,44 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>calculator</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
+      <div>
+        <p> Calculator</p>
+      </div>
       <div>
           <input type="text" name="" id="history">
       </div>
       <div>
-          <input type="text" name="" id="resultcrssn">
+          <input type="text" name="" id="resultcreen">
       </div>
     <div>
-      <button>AC</button>
-      <button>CE</button>
-      <button>%</button>
-      <button>/</button>
+      <button class="keys pnt" value="AC">AC</button>
+      <button class="keys pnt" value="CE">CE</button>
+      <button class="keys opt" value="%">%</button>
+      <button class="keys opt" value="/">/</button>
     </div>
     <div>
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>x</button>
+      <button class="keys" value="7">7</button>
+      <button class="keys" value="8">8</button>
+      <button class="keys" value="9">9</button>
+      <button class="keys opt" value="*">x</button>
     </div>
     <div>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>-</button>
+      <button class="keys" value="4">4</button>
+      <button class="keys" value="5">5</button>
+      <button class="keys" value="6">6</button>
+      <button class="keys opt" value="-">-</button>
     </div>
     <div>
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>+</button>
+      <button class="keys" value="1">1</button>
+      <button class="keys" value="2">2</button>
+      <button class="keys" value="3">3</button>
+      <button class="keys opt" value="+">+</button>
     </div>
     <div>
-      <button>0</button>
-      <button>.</button>
-      <button>=</button>
-      <button></button>
+      <button class="keys" value="0">0</button>
+      <button class="keys opt" value=".">.</button>
+      <button class="opt" value="=" id="equal">=</button>
     </div>
+    <script src="./function.js"></script>
   </body>
 </html>
+
+
