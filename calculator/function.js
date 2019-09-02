@@ -21,7 +21,9 @@
     var str = result.value;
     var lastChar = str[str.length - 1];
 
-    if (isNaN(lastChar) && isNaN(ats)) {
+    if (isNaN(lastChar) && isNaN(ats)) 
+    {
+    
     } 
     else 
     {
